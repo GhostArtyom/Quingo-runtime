@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="quingo",
-    version="0.4.1",
+    version="0.4.2",
     author="Xiang Fu",
     author_email="gtaifu@gmail.com",
     description="Quingo Runtime System",
@@ -33,7 +33,7 @@ setup(
         "requests",
         "tqdm",
         "pyquiet >= 0.0.4",
-        "pycim-simulator"
+        "pycim-simulator",
     ],
     extras_require={
         ':sys_platform == "linux"': [
